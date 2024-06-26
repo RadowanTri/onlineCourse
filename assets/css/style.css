@@ -8,21 +8,19 @@
 
 /* CSS Index
 -----------------------------------
-1. Theme default css
-2. header
-3. slider
-4. about-area
-5. features-box
-6. department
-7. team
-8. video-area
-9. counter
+01. Theme default css
+02. Section-title & Sction-padding
+03. Header CSS
+04. Categories CSS
+05. Partner CSS
+06. Testimonial CSS
+07. Blog CSS
+08. Footer CSS
+09. counter
 10. footer
 */
 
-
-
-/* 1. Theme default css */
+/* 01. Theme default CSS */
 
 * {
     margin: 0;
@@ -1068,7 +1066,7 @@ label {
     position: absolute;
 }
 /*----------------------------------------*/
-/*  05. Section-title & Sction-padding CSS
+/*  02. Section-title & Sction-padding CSS
 /*----------------------------------------*/
 .section-padding{
     padding: 70px 0px;
@@ -1103,6 +1101,10 @@ label {
     font-weight: 500;
     line-height: 27px;
   }
+
+  /*----------------------------------------*/
+/*  03. Header CSS
+/*----------------------------------------*/
   /* header area  */
   /* .header-top{
     background-color: #6856F8;
@@ -1146,6 +1148,9 @@ label {
     background-image: url(../img/banner-bg.png);
     
 } */
+/*----------------------------------------*/
+/*  04. Categories CSS
+/*----------------------------------------*/
 .categories-area .img-abs img:nth-child(1){
     top: 17%;
 
@@ -1225,7 +1230,9 @@ label {
     left: auto;
     right: 15px;
 }
-
+/*----------------------------------------*/
+/*  0t. Partner CSS
+/*----------------------------------------*/
 .partner-list {
     display: flex;
     flex-wrap: wrap;
@@ -1243,6 +1250,9 @@ label {
     justify-content: center;
     margin-bottom: 10px;
 }
+/*----------------------------------------*/
+/*  06. Testimonial CSS
+/*----------------------------------------*/
 .testimonial-area{
     background-color: #F7F6FF;
 }
@@ -1311,6 +1321,10 @@ label {
 .testimonial-carousel .owl-nav button.owl-next {
     left: 45%;
 }
+
+/*----------------------------------------*/
+/*  07. Blog CSS
+/*----------------------------------------*/
 .blog-item.active .blog-img img{
     /* height: 420px; */
     width: 100%;
@@ -1370,7 +1384,9 @@ label {
     flex-direction: column;
     gap: 2px;
 }
-
+/*----------------------------------------*/
+/*  02. Footer CSS
+/*----------------------------------------*/
 
 .footer-area{
     background: #F3ECFF;
