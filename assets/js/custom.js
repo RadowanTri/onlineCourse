@@ -35,7 +35,10 @@ $(document).ready(function($) {
 				$('.sticky-top').css('top', '-100px');
 			}
 		});
-		
+		    
+    // Initiate the wowjs
+    new WOW().init();
+
 		//testimonial-slider 
 		var $testimonialSlider = $(".testimonial-carousel");
 		$testimonialSlider.owlCarousel({
@@ -80,5 +83,26 @@ $(document).ready(function($) {
 			  srcAction: 'iframe_src',
 			}
 		  });
+			 // student carousel
+    $(".student-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
+        center: true,
+        margin: 24,
+        dots: true,
+        loop: true,
+        nav : false,
+        responsive: {
+            0:{
+                items:1
+            },
+            768:{
+                items:2
+            },
+            992:{
+                items:3
+            }
+        }
+    });
 
 });
