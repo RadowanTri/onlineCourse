@@ -49,8 +49,9 @@ $(document).ready(function($) {
 				'<i class="fas fa-chevron-right"></i>',
 			],
 			dots: false,
-			autoplayTimeout: 7000,
-			autoplay: false,
+			autoplay: true,
+			smartSpeed: 1000,
+			center: true,
 			margin: 30,
 			responsive: {
 				0: {
